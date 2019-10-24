@@ -1,0 +1,42 @@
+{
+  "name": "gulp4_markup",
+  "version": "1.0.0",
+  "description": "A Simple markup development boilerplate with Gulp4, Jade, and Sass",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "publish": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [
+    "Gulp",
+    "Gulp4",
+    "Gulp",
+    "Babel",
+    "Gulp",
+    "ES6",
+    "Jade",
+    "Sass",
+    "Markup",
+    "Front-end"
+  ],
+  "author": "Cipto Hartanto",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
